@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="map">Loading ... </div>
+    <div id="wrapper">
+        <h1>Places of tourism in Egypt</h1>
+        <ul id="list">
+            <li><input type="button" value="Pyramids of Giza" id="pyramids"></li>
+            <li><input type="button" value="Valley of Kings" id="kingsvalley"></li>
+            <li><input type="button" value="Citadel of Saladin" id="citadel"></li>
+            <li><input type="button" value="Rock Temples of Abu Simbel" id="abusimbel"></li>
+            <li><input type="button" value="Egyptian Museum" id="egmuseum"></li>
+            <li><input type="button" value="White Desert" id="whitedesert"></li>
+            <li><input type="button" value="Karnak Temple" id="karnak"></li>
+            <li><input type="button" value="Egypt" id="resetBtn"></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
